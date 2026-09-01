@@ -10,6 +10,8 @@ The site turns hands-on research across RISEx, Variational Omni, Ink Points, and
 
 The live preview is available at [W3 / Ledger](https://3000-i2wkd33377t3d9bzjpqyf-02667690.us1.manus.computer). The preview URL is a development environment and may not be permanent.
 
+The repository now includes an [interactive Activity Dashboard](activity/index.html). It reads the public GitHub API to show recent commits, loaded commit count, unique authors, stars, open issues, and a 14-day activity pulse. It has no token requirement and falls back to a clear error state when the public API is unavailable.
+
 ## Site map
 
 | Section | Purpose |
@@ -31,6 +33,7 @@ No passwords, access tokens, seed phrases, private keys, environment files, brow
 - [Site structure](docs/site-structure.md)
 - [Outreach templates](docs/outreach.md)
 - [Changelog](CHANGELOG.md)
+- [Activity Dashboard](activity/index.html)
 
 ## Design direction
 
